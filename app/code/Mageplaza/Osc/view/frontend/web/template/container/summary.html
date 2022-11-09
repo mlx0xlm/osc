@@ -25,26 +25,8 @@
 		<!-- ko if: window.checkoutConfig.oscConfig.isUsedMaterialDesign -->
 			<i class="fa fa-check-circle"></i>
 		<!-- /ko -->
-		<span data-bind="i18n: 'Order Summary 123'"></span>
+		<span data-bind="i18n: 'Order Summary'"></span>
 	</div>
-    <div class="123">
-        <h1>Select</h1>
-        <div>
-            <label>
-                <input name="addition_product" type="radio"/>
-                ABC
-            </label>
-            <label>
-                <input name="addition_product" type="radio"/>
-                BCS
-            </label>
-            <label>
-                <input name="addition_product" type="radio"/>
-                GSD 12
-            </label>
-        </div>
-
-    </div>
 	<div class="opc-block-summary step-content" data-bind="blockLoader: isLoading">
 		<!-- ko foreach: elems() -->
 			<!-- ko template: getTemplate() --><!-- /ko -->
